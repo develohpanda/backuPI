@@ -15,7 +15,7 @@ python3 setup.py install
     3. Stop process and warn if above conditions don't match
 3. Compress "to-backup" folder contents
     1. Create `hash` using last modified date time, size, number of files in total (maybe?)
-    2. Named `yyyy/mm/dd/drivename/hash.zip` where `HHMM` is 24hr time for when backup began
+    2. Named `yyyy/mm/dd/drivename/hash.zip`
     3. Compare against hash/file path
     3. If not existing, compress onto temp drive
 4. Create folder and copy from temp drive to main
