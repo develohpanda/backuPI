@@ -24,4 +24,5 @@ python3 setup.py install
 ## Additional features:
 1. Trigger when new drive is plugged in
 2. Indicate status using LED
-3. Copy to network drive connected to another RPi.
+3. Copy to network drive connected to another RPi
+4. Web app hosted on RPi as a visual interface
